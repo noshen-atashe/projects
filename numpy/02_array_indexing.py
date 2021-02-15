@@ -34,6 +34,10 @@ print('2nd element on 1st array of 4th array: ', arr3D[3,0,1])
 #negative indexing
 print('\nUsing negative indexing')
 print('From 2D array:')
-print('Last element from last array: ', arr2D[-1,-1])
+print('Last element from first array: ', arr2D[1,-1])
+print('Last element from last array:  ', arr2D[-1,-1])
+
 print('From 3D array:')
-print('Last element from last array of last array: ', arr3D[-1,-1,-1])
+print('Last element from first array of last array:  ', arr3D[-1,1,-1])
+print('Last element from last array of second array: ', arr3D[2,-1,-1])
+print('Last element from last array of last array:   ', arr3D[-1,-1,-1])
