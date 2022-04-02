@@ -44,23 +44,6 @@ print("answer: ", answer, " ", answer2)
 
 
 
-
-
-
-
-
-'''while (prompt != '-1'): 
-    if (prompt == "snap is the name of the game"):
-        while(collect!=('snap isn\'t the name of the game')): 
-            answer+=(collect[0])
-            collect = input("+")
-            
-    elif (prompt == "snap isn't the name of the game"):
-        while(collect!=('snap is the name of the game')): 
-            answer2+=(collect[0])
-            collect = input("+")
-    prompt = collect
-print(answer, " ", answer2)'''
  
 
 
